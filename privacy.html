@@ -19,7 +19,7 @@
 <body>
 
 <h1>Privacy Policy</h1>
-<p class="meta">FieldLog — Coffey Construction LLC<br>Effective August 25, 2026</p>
+<p class="meta">FieldLog — Coffey Construction LLC<br>Effective August 26, 2026</p>
 
 <h2>1. What FieldLog is</h2>
 <p>FieldLog is a private, internal business application built and operated by Coffey
@@ -60,8 +60,9 @@ we forgot to enter can be identified.</p>
       transaction date, amount, payee, account, and memo.</li>
   <li>QuickBooks data is used only for this reconciliation comparison. It is not shared with
       anyone, sold, or used for any other purpose.</li>
-  <li>Authorization tokens issued by Intuit are stored encrypted at rest. The encryption key
-      is held separately in the hosting environment and is never stored in the database or
+  <li>The authorization tokens issued by Intuit, and the identifier of the QuickBooks
+      company they grant access to, are stored encrypted at rest. The encryption key is
+      held separately in the hosting environment and is never stored in the database or
       included in backups.</li>
   <li>The connection can be revoked at any time from within FieldLog or from the Apps page of
       QuickBooks Online. Revoking it deletes the stored tokens.</li>
@@ -74,7 +75,9 @@ we forgot to enter can be identified.</p>
   <li><strong>Intuit / QuickBooks Online</strong> — read-only accounting data, as described above.</li>
   <li><strong>Anthropic</strong> — interprets voice and text field entries into structured records.</li>
   <li><strong>OpenAI</strong> — optional transcription of voice recordings to text.</li>
-  <li><strong>Google Drive</strong> — storage location for encrypted-in-transit database backups.</li>
+  <li><strong>Google Drive</strong> — storage location for our nightly database backups.
+      Each backup is encrypted before it leaves our own infrastructure, so Google stores
+      only ciphertext and cannot read its contents.</li>
 </ul>
 <p>Voice entries may contain a customer's name or job address, and that text is transmitted
 to the providers above for interpretation. No other category of data is sent to them.</p>
@@ -84,7 +87,14 @@ to the providers above for interpretation. No other category of data is sent to 
   <li>All access is over HTTPS. Passwords are stored only as bcrypt hashes.</li>
   <li>Sessions use signed tokens that expire and can be revoked immediately.</li>
   <li>QuickBooks authorization tokens are encrypted at rest.</li>
-  <li>Backups are taken nightly and retained on a rolling schedule (daily, weekly, monthly).</li>
+  <li>Responses carrying customer or financial data are marked non-cacheable, so they are
+      not retained by browsers or intermediate caches.</li>
+  <li>Uploaded documents are stored in the database rather than on server disk, which
+      means they are covered by the backups below.</li>
+  <li>Backups are taken nightly and retained on a rolling schedule (daily, weekly,
+      monthly). Each backup is encrypted on our own systems before it is uploaded, under
+      a key stored separately from the backup itself, and every run confirms the backup
+      can be decrypted and read back before any older backup is removed.</li>
   <li>Financial records are retained as long as required for tax, accounting, and warranty
       purposes. Business records are not deleted on a fixed schedule.</li>
 </ul>
