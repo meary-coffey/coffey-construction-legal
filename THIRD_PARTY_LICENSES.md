@@ -5,15 +5,15 @@ Do not edit by hand — changes here are overwritten on the next run.
 
 | Component | Version | Ecosystem | License |
 |---|---|---|---|
-| alembic | 1.20.0 | python | MIT |
+| alembic | 1.20.1 | python | MIT |
 | annotated-types | 0.8.0 | python | MIT |
-| anthropic | 1.13.0 | python | MIT License |
+| anthropic | 1.17.0 | python | MIT License |
 | anyio | 4.15.1 | python | MIT |
 | bcrypt | 5.0.0 | python | Apache Software License |
 | blinker | 1.9.0 | python | MIT License |
 | boolean.py | 5.0 | python | BSD-2-Clause |
 | CacheControl | 0.14.4 | python | Apache-2.0 |
-| certifi | 2026.7.22 | python | Mozilla Public License 2.0 (MPL 2.0) |
+| certifi | 2026.10.23 | python | Mozilla Public License 2.0 (MPL 2.0) |
 | cffi | 2.1.1 | python | MIT-0 |
 | charset-normalizer | 3.5.2 | python | MIT |
 | click | 8.5.0 | python | BSD-3-Clause |
@@ -21,22 +21,22 @@ Do not edit by hand — changes here are overwritten on the next run.
 | cyclonedx-python-lib | 11.12.0 | python | Apache Software License |
 | defusedxml | 0.7.1 | python | Python Software Foundation License |
 | docstring_parser | 0.18.0 | python | MIT License |
-| filelock | 4.1.1 | python | MIT |
+| filelock | 4.2.4 | python | MIT |
 | Flask | 3.1.3 | python | BSD-3-Clause |
 | flask-cors | 6.0.5 | python | MIT |
-| google-api-core | 2.42.0 | python | Apache Software License |
+| google-api-core | 2.43.0 | python | Apache Software License |
 | google-api-python-client | 2.201.0 | python | Apache Software License |
 | google-auth | 2.62.0 | python | Apache Software License |
 | google-auth-httplib2 | 0.4.4 | python | Apache Software License |
 | google-auth-oauthlib | 1.5.0 | python | Apache Software License |
-| googleapis-common-protos | 1.75.5 | python | Apache-2.0 |
+| googleapis-common-protos | 1.76.0 | python | Apache-2.0 |
 | gunicorn | 26.2.0 | python | MIT |
 | h11 | 0.16.0 | python | MIT License |
 | httpcore | 1.0.9 | python | BSD-3-Clause |
-| httpcore2 | 2.13.1 | python | BSD-3-Clause |
+| httpcore2 | 2.16.0 | python | BSD-3-Clause |
 | httplib2 | 0.32.0 | python | MIT License |
 | httpx | 0.28.1 | python | BSD License |
-| httpx2 | 2.13.1 | python | BSD-3-Clause |
+| httpx2 | 2.16.0 | python | BSD-3-Clause |
 | idna | 3.20 | python | BSD-3-Clause |
 | iniconfig | 2.3.1 | python | MIT |
 | itsdangerous | 2.2.0 | python | BSD License |
@@ -47,42 +47,42 @@ Do not edit by hand — changes here are overwritten on the next run.
 | markdown-it-py | 4.2.0 | python | MIT License |
 | MarkupSafe | 3.0.4 | python | BSD-3-Clause |
 | mdurl | 0.1.2 | python | MIT License |
-| msgpack | 1.2.3 | python | Apache-2.0 |
+| msgpack | 1.2.4 | python | Apache-2.0 |
 | oauthlib | 4.0.0 | python | BSD-3-Clause |
-| openai | 3.29.0 | python | Apache-2.0 |
+| openai | 3.39.0 | python | Apache-2.0 |
 | opentelemetry-api | 1.45.1 | python | Apache-2.0 |
 | packageurl-python | 0.17.6 | python | MIT License |
 | packaging | 26.3 | python | Apache-2.0 OR BSD-2-Clause |
-| pillow | 12.3.0 | python | MIT-CMU |
+| pillow | 13.0.0 | python | MIT-CMU |
 | pip-requirements-parser | 32.0.1 | python | MIT |
 | pip_api | 0.0.35 | python | Apache Software License |
 | pip_audit | 2.10.1 | python | Apache Software License |
-| platformdirs | 4.13.0 | python | MIT |
-| pluggy | 1.6.0 | python | MIT License |
+| platformdirs | 4.13.5 | python | MIT |
+| pluggy | 1.7.0 | python | MIT License |
 | proto-plus | 1.29.0 | python | Apache Software License |
 | protobuf | 7.36.2 | python | 3-Clause BSD License |
 | psycopg2-binary | 2.9.13 | python | GNU Library or Lesser General Public License (LGPL) |
 | py-serializable | 2.1.0 | python | Apache Software License |
 | pyasn1 | 0.6.4 | python | BSD-2-Clause |
 | pyasn1_modules | 0.4.2 | python | BSD License |
-| pycparser | 3.11 | python | BSD-3-Clause |
+| pycparser | 3.12 | python | BSD-3-Clause |
 | pydantic | 2.14.1 | python | MIT |
 | pydantic_core | 2.50.1 | python | MIT |
 | Pygments | 2.21.0 | python | BSD-2-Clause |
 | PyJWT | 2.15.1 | python | MIT |
 | pyparsing | 3.3.3 | python | MIT |
-| pypdf | 6.20.1 | python | BSD-3-Clause |
+| pypdf | 6.21.2 | python | BSD-3-Clause |
 | pytest | 9.1.1 | python | MIT |
-| reportlab | 5.0.1 | python | BSD License |
+| reportlab | 5.1.0 | python | BSD License |
 | requests | 2.34.2 | python | Apache Software License |
 | requests-oauthlib | 2.0.0 | python | BSD License |
 | rich | 15.0.0 | python | MIT License |
 | sniffio | 1.3.1 | python | Apache Software License; MIT License |
 | sortedcontainers | 2.4.0 | python | Apache Software License |
-| SQLAlchemy | 2.1.4 | python | MIT |
+| SQLAlchemy | 2.1.6 | python | MIT |
 | tomli | 2.5.0 | python | MIT |
 | tomli_w | 1.2.0 | python | MIT License |
-| truststore | 0.10.4 | python | MIT |
+| truststore | 0.10.5 | python | MIT |
 | typing-inspection | 0.4.4 | python | MIT |
 | typing_extensions | 4.16.0 | python | PSF-2.0 |
 | uritemplate | 4.2.0 | python | BSD 3-Clause OR Apache-2.0 |
