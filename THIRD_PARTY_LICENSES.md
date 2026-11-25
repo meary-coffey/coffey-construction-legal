@@ -29,7 +29,7 @@ Installed in the production app (from `requirements.lock.txt` / npm production d
 | google-auth-httplib2 | 0.4.4 | python | Apache Software License |
 | google-auth-oauthlib | 1.5.0 | python | Apache Software License |
 | googleapis-common-protos | 1.76.0 | python | Apache-2.0 |
-| gunicorn | 26.2.0 | python | MIT |
+| gunicorn | 27.0.1 | python | MIT |
 | h11 | 0.16.0 | python | MIT License |
 | httpcore | 1.0.9 | python | BSD-3-Clause |
 | httpcore2 | 2.16.2 | python | BSD-3-Clause |
